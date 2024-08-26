@@ -1,4 +1,4 @@
-
+const prompt = require("prompt-sync")({ sigint: true });
 function classifyNumber(num) {
     let sum = 0;
 
