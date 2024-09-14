@@ -5,7 +5,6 @@ function isPrime(num) {
     }
     return true;
 }
-
 function isPalindrome(num) {
     return num.toString() === num.toString().split('').reverse().join('');
 }
